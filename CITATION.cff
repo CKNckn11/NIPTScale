@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use NIPTScale, please cite this software and the BaseVar2 method used for variant calling."
+title: "NIPTScale: scalable workflows for single-end low-pass WGS-NIPT"
+type: software
+authors:
+  - family-names: Chen
+    given-names: Kangnan
+version: 0.2.0
+date-released: 2026-11-09
+url: "https://github.com/CKNckn11/NIPTScale"
+repository-code: "https://github.com/CKNckn11/NIPTScale"
+license: MIT
+keywords:
+  - NIPT
+  - cfDNA
+  - low-pass WGS
+  - BaseVar2
+  - workflow
+references:
+  - type: article
+    title: "Utilizing non-invasive prenatal test sequencing data for human genetic investigation"
+    authors:
+      - family-names: Liu
+        given-names: S.
+    journal: Cell Genomics
+    volume: 4
+    issue: 10
+    year: 2024
+    doi: 10.1016/j.xgen.2024.100669

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="260" viewBox="0 0 1040 260" role="img" aria-labelledby="title desc">
+  <title id="title">NIPTScale</title>
+  <desc id="desc">NIPTScale logo with DNA fragments arranged as a scalable data flow.</desc>
+  <rect width="1040" height="260" rx="34" fill="#f7faf9"/>
+  <g transform="translate(55 48)" fill="none" stroke-linecap="round">
+    <path d="M18 12c78 0 78 140 156 140s78-140 156-140" stroke="#2f6f62" stroke-width="16"/>
+    <path d="M18 152c78 0 78-140 156-140s78 140 156 140" stroke="#84b7a5" stroke-width="16"/>
+    <g stroke="#1f4f47" stroke-width="8"><path d="M57 34l28 34"/><path d="M102 90l28 34"/><path d="M221 34l-28 34"/><path d="M176 90l-28 34"/><path d="M285 34l28 34"/></g>
+    <circle cx="356" cy="82" r="9" fill="#d4973f" stroke="none"/><circle cx="386" cy="82" r="13" fill="#d4973f" stroke="none"/><circle cx="424" cy="82" r="18" fill="#d4973f" stroke="none"/>
+  </g>
+  <text x="515" y="126" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" fill="#193b35">NIPTScale</text>
+  <text x="520" y="172" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="2" fill="#5c746f">LOW-PASS WGS-NIPT WORKFLOWS</text>
+</svg>

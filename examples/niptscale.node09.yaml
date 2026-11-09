@@ -1,0 +1,18 @@
+paths:
+  scan_root: /240T/ChenKangnan/NIPT
+  result_root: /240T/ChenKangnan/BaseVar2_results
+  pipeline_dir: /240T/ChenKangnan/BaseVar2_script/pipline
+
+rules:
+  min_fastq_bytes: 100000000
+  lane_pattern: '^L\d{2}$'
+
+parallel:
+  # node09: 128 physical CPU cores and 1.1 TiB RAM.
+  alignment_lane_jobs: 4
+  samples_per_lane: 8
+  alignment_threads_per_sample: 3
+  samtools_threads_per_sample: 2
+  sort_memory_per_thread: 1G
+  test_lane_jobs: 4
+  wgs_lane_jobs: 4

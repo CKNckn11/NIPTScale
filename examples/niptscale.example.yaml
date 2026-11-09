@@ -1,0 +1,21 @@
+paths:
+  # Root containing Disk/Run/Lane directories.
+  scan_root: /data/NIPT
+  # Result root used by the site-specific shell adapter.
+  result_root: /results/BaseVar2
+  # See docs/configuration.md for required files.
+  pipeline_dir: /opt/niptscale-pipeline
+
+rules:
+  # FASTQs below this size remain in the inventory but are excluded.
+  min_fastq_bytes: 100000000
+  lane_pattern: '^L\d{2}$'
+
+parallel:
+  alignment_lane_jobs: 4
+  samples_per_lane: 2
+  alignment_threads_per_sample: 4
+  samtools_threads_per_sample: 2
+  sort_memory_per_thread: 1G
+  test_lane_jobs: 2
+  wgs_lane_jobs: 1

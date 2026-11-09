@@ -1,0 +1,4 @@
+include README.md README_CN.md LICENSE CHANGELOG.md CITATION.cff
+recursive-include src/niptscale/scripts *.sh
+recursive-include docs *.md *.svg
+recursive-include examples *.yaml *.sh *.md
