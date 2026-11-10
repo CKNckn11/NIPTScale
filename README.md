@@ -33,21 +33,9 @@ The architecture follows the useful separation used by [ilus](https://github.com
 
 ## Workflow
 
-```mermaid
-flowchart LR
-    A[Disk / Run / Lane] --> B[scan]
-    B --> C[Lane list]
-    B --> D[FASTQ manifest]
-    C --> E[generate]
-    E --> F[Alignment jobs]
-    E --> G[Optional region test]
-    E --> H[Whole-genome BaseVar2 jobs]
-    F --> I[Sample BAM + BAI]
-    I --> G
-    I --> H
-    G --> J[Test VCF]
-    H --> K[Lane-level VCF + TBI]
-```
+<p align="center">
+  <img src="docs/assets/workflow.svg" width="100%" alt="NIPTScale workflow from FASTQ discovery to a Lane-level BaseVar2 VCF">
+</p>
 
 The regional test is recommended for validation but is not a software dependency of the WGS stage. Both calling stages require a completed `bam.list`.
 

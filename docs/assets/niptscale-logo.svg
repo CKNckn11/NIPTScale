@@ -1,13 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="260" viewBox="0 0 1040 260" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
   <title id="title">NIPTScale</title>
-  <desc id="desc">NIPTScale logo with DNA fragments arranged as a scalable data flow.</desc>
-  <rect width="1040" height="260" rx="34" fill="#f7faf9"/>
-  <g transform="translate(55 48)" fill="none" stroke-linecap="round">
-    <path d="M18 12c78 0 78 140 156 140s78-140 156-140" stroke="#2f6f62" stroke-width="16"/>
-    <path d="M18 152c78 0 78-140 156-140s78 140 156 140" stroke="#84b7a5" stroke-width="16"/>
-    <g stroke="#1f4f47" stroke-width="8"><path d="M57 34l28 34"/><path d="M102 90l28 34"/><path d="M221 34l-28 34"/><path d="M176 90l-28 34"/><path d="M285 34l28 34"/></g>
-    <circle cx="356" cy="82" r="9" fill="#d4973f" stroke="none"/><circle cx="386" cy="82" r="13" fill="#d4973f" stroke="none"/><circle cx="424" cy="82" r="18" fill="#d4973f" stroke="none"/>
+  <desc id="desc">NIPTScale logo combining a DNA helix with scalable genomic data blocks.</desc>
+  <rect width="1200" height="240" fill="#ffffff"/>
+
+  <!-- DNA and data mark -->
+  <g transform="translate(54 38)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 20 C88 20 84 144 162 144 C232 144 238 20 306 20" stroke="#18594f" stroke-width="14"/>
+    <path d="M12 144 C88 144 84 20 162 20 C232 20 238 144 306 144" stroke="#75ad9c" stroke-width="14"/>
+    <g stroke="#397b6e" stroke-width="7">
+      <path d="M55 43 L78 69"/>
+      <path d="M88 95 L111 121"/>
+      <path d="M213 43 L236 69"/>
+      <path d="M180 95 L203 121"/>
+    </g>
+    <g transform="translate(330 35)">
+      <rect x="0" y="64" width="25" height="25" rx="5" fill="#e3a23b" stroke="none"/>
+      <rect x="38" y="42" width="35" height="47" rx="6" fill="#d58c2c" stroke="none"/>
+      <rect x="86" y="12" width="45" height="77" rx="7" fill="#bf7422" stroke="none"/>
+    </g>
   </g>
-  <text x="515" y="126" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" fill="#193b35">NIPTScale</text>
-  <text x="520" y="172" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="2" fill="#5c746f">LOW-PASS WGS-NIPT WORKFLOWS</text>
+
+  <!-- Wordmark -->
+  <text x="550" y="112" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="76" font-weight="750" letter-spacing="-2" fill="#153f39">NIPT<tspan fill="#397b6e">Scale</tspan></text>
+  <rect x="554" y="137" width="52" height="4" rx="2" fill="#d58c2c"/>
+  <text x="622" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="3.2" fill="#526b67">SCALABLE LOW-PASS WGS-NIPT</text>
+  <text x="554" y="184" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="0.8" fill="#7a8b88">discover · align · call · track</text>
 </svg>
